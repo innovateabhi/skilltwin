@@ -410,6 +410,14 @@ The chatbot is designed as a separate service so that it can communicate with an
 
 ![SkillTwin Home Page](screenshots/home.png)
 
+### 🏫 User Registration Page [Trainee / Trainer / Institution / Industry]
+
+![SkillTwin Institution Portal](screenshots/register.png)
+
+### 🏢 User Login Page [Trainee / Trainer / Institution / Industry]
+
+![SkillTwin Industry Portal](screenshots/login.png)
+
 ### 🎓 Trainee Portal
 
 ![SkillTwin Trainee Portal](screenshots/trainee.png)
@@ -421,14 +429,6 @@ The chatbot is designed as a separate service so that it can communicate with an
 ### 🛡️ Admin Portal
 
 ![SkillTwin Admin Portal](screenshots/admin.png)
-
-### 🏫 Institution Portal
-
-![SkillTwin Institution Portal](screenshots/institution.png)
-
-### 🏢 Industry Portal
-
-![SkillTwin Industry Portal](screenshots/industry.png)
 
 ---
 

@@ -1,0 +1,13 @@
+{
+  "items": [
+    {"keywords": ["what is skilltwin", "about skilltwin"], "answer": "SkillTwin is a Competency Intelligence Platform that helps assess competencies, identify skill gaps, recommend learning, support training, measure improvement and support certification."},
+    {"keywords": ["skill gap", "skill gaps", "competency gap", "gap analysis"], "answer": "SkillTwin identifies the difference between current competency levels and the competencies required for a role, program or learning objective."},
+    {"keywords": ["assessment", "assessments", "test", "question bank"], "answer": "SkillTwin uses assessments to understand current competency levels and produce measurable competency information."},
+    {"keywords": ["learning path", "learning paths", "personalized learning"], "answer": "SkillTwin can use identified competency gaps to guide personalized learning paths, courses and relevant resources."},
+    {"keywords": ["certificate", "certification"], "answer": "SkillTwin supports competency certification and certificate history as part of the competency-development lifecycle."},
+    {"keywords": ["trainer", "trainers"], "answer": "Trainers can manage trainees, courses, learning resources and assessments while monitoring competency and progress."},
+    {"keywords": ["institution", "college", "university"], "answer": "Institutions can use SkillTwin to manage learners and trainers, programs, assessments and competency analytics."},
+    {"keywords": ["industry", "company", "workforce", "organization"], "answer": "Industry and organizations can use SkillTwin for workforce competency mapping, role-based requirements, skill-gap analysis, training requirements and workforce analytics."},
+    {"keywords": ["pricing", "price", "cost"], "answer": "SkillTwin pricing is currently being developed and may depend on organization size, users, modules, analytics and integrations."}
+  ]
+}

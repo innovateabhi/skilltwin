@@ -1,0 +1,695 @@
+[
+  {
+    "slug": "python-programming",
+    "name": "Python Programming",
+    "category": "programming-development",
+    "description": "Ability to develop software using Python."
+  },
+  {
+    "slug": "javascript",
+    "name": "JavaScript",
+    "category": "programming-development",
+    "description": "Ability to develop applications using modern JavaScript."
+  },
+  {
+    "slug": "typescript",
+    "name": "TypeScript",
+    "category": "programming-development",
+    "description": "Ability to develop strongly typed JavaScript applications."
+  },
+  {
+    "slug": "java-programming",
+    "name": "Java Programming",
+    "category": "programming-development",
+    "description": "Ability to build software using Java."
+  },
+  {
+    "slug": "cpp-programming",
+    "name": "C++ Programming",
+    "category": "programming-development",
+    "description": "Ability to develop high-performance software using C++."
+  },
+  {
+    "slug": "c-programming",
+    "name": "C Programming",
+    "category": "programming-development",
+    "description": "Ability to develop systems software using C."
+  },
+  {
+    "slug": "csharp-programming",
+    "name": "C# Programming",
+    "category": "programming-development",
+    "description": "Ability to develop applications using C# and .NET."
+  },
+  {
+    "slug": "go-programming",
+    "name": "Go Programming",
+    "category": "programming-development",
+    "description": "Ability to develop backend and systems applications using Go."
+  },
+  {
+    "slug": "rust-programming",
+    "name": "Rust Programming",
+    "category": "programming-development",
+    "description": "Ability to develop memory-safe systems software using Rust."
+  },
+
+  {
+    "slug": "data-structures",
+    "name": "Data Structures",
+    "category": "programming-development",
+    "description": "Ability to select and implement appropriate data structures."
+  },
+  {
+    "slug": "algorithms",
+    "name": "Algorithms",
+    "category": "programming-development",
+    "description": "Ability to design and analyze algorithms."
+  },
+  {
+    "slug": "object-oriented-programming",
+    "name": "Object-Oriented Programming",
+    "category": "programming-development",
+    "description": "Ability to apply object-oriented design principles."
+  },
+  {
+    "slug": "design-patterns",
+    "name": "Design Patterns",
+    "category": "software-architecture",
+    "description": "Ability to apply reusable software design patterns."
+  },
+  {
+    "slug": "software-architecture",
+    "name": "Software Architecture",
+    "category": "software-architecture",
+    "description": "Ability to design maintainable and scalable software architectures."
+  },
+  {
+    "slug": "api-design",
+    "name": "API Design",
+    "category": "software-architecture",
+    "description": "Ability to design reliable and maintainable APIs."
+  },
+  {
+    "slug": "microservices",
+    "name": "Microservices",
+    "category": "software-architecture",
+    "description": "Ability to design and operate distributed microservice architectures."
+  },
+
+  {
+    "slug": "react",
+    "name": "React",
+    "category": "web-development",
+    "description": "Ability to build modern user interfaces using React."
+  },
+  {
+    "slug": "nextjs",
+    "name": "Next.js",
+    "category": "web-development",
+    "description": "Ability to build full-stack web applications using Next.js."
+  },
+  {
+    "slug": "html-css",
+    "name": "HTML & CSS",
+    "category": "web-development",
+    "description": "Ability to structure and style modern web interfaces."
+  },
+  {
+    "slug": "nodejs",
+    "name": "Node.js",
+    "category": "web-development",
+    "description": "Ability to build server-side applications using Node.js."
+  },
+  {
+    "slug": "rest-api",
+    "name": "REST APIs",
+    "category": "web-development",
+    "description": "Ability to build and consume RESTful APIs."
+  },
+  {
+    "slug": "graphql",
+    "name": "GraphQL",
+    "category": "web-development",
+    "description": "Ability to design and consume GraphQL APIs."
+  },
+
+  {
+    "slug": "sql",
+    "name": "SQL",
+    "category": "database-administration",
+    "description": "Ability to query and manipulate relational databases."
+  },
+  {
+    "slug": "postgresql",
+    "name": "PostgreSQL",
+    "category": "database-administration",
+    "description": "Ability to develop and administer PostgreSQL databases."
+  },
+  {
+    "slug": "mysql",
+    "name": "MySQL",
+    "category": "database-administration",
+    "description": "Ability to develop and administer MySQL databases."
+  },
+  {
+    "slug": "redis",
+    "name": "Redis",
+    "category": "database-administration",
+    "description": "Ability to use Redis for caching and data storage."
+  },
+  {
+    "slug": "mongodb",
+    "name": "MongoDB",
+    "category": "database-administration",
+    "description": "Ability to develop applications using MongoDB."
+  },
+
+  {
+    "slug": "linux",
+    "name": "Linux",
+    "category": "systems-administration",
+    "description": "Ability to administer Linux systems."
+  },
+  {
+    "slug": "windows-server",
+    "name": "Windows Server",
+    "category": "systems-administration",
+    "description": "Ability to administer Windows Server environments."
+  },
+  {
+    "slug": "network-administration",
+    "name": "Network Administration",
+    "category": "networking",
+    "description": "Ability to configure and troubleshoot computer networks."
+  },
+  {
+    "slug": "tcp-ip",
+    "name": "TCP/IP",
+    "category": "networking",
+    "description": "Understanding of TCP/IP networking protocols."
+  },
+
+  {
+    "slug": "data-analysis",
+    "name": "Data Analysis",
+    "category": "data-analysis",
+    "description": "Ability to analyze datasets and extract actionable insights."
+  },
+  {
+    "slug": "pandas",
+    "name": "Pandas",
+    "category": "data-analysis",
+    "description": "Ability to perform data manipulation and analysis with Pandas."
+  },
+  {
+    "slug": "numpy",
+    "name": "NumPy",
+    "category": "data-analysis",
+    "description": "Ability to perform numerical computing with NumPy."
+  },
+  {
+    "slug": "data-visualization",
+    "name": "Data Visualization",
+    "category": "data-analysis",
+    "description": "Ability to communicate data insights visually."
+  },
+  {
+    "slug": "statistics",
+    "name": "Statistics",
+    "category": "statistics",
+    "description": "Ability to apply statistical methods to real-world problems."
+  },
+
+  {
+    "slug": "machine-learning",
+    "name": "Machine Learning",
+    "category": "machine-learning",
+    "description": "Ability to develop and evaluate machine learning systems."
+  },
+  {
+    "slug": "scikit-learn",
+    "name": "Scikit-learn",
+    "category": "machine-learning",
+    "description": "Ability to implement machine learning workflows using Scikit-learn."
+  },
+  {
+    "slug": "feature-engineering",
+    "name": "Feature Engineering",
+    "category": "machine-learning",
+    "description": "Ability to construct useful machine learning features."
+  },
+  {
+    "slug": "model-evaluation",
+    "name": "Model Evaluation",
+    "category": "machine-learning",
+    "description": "Ability to evaluate machine learning model performance."
+  },
+
+  {
+    "slug": "deep-learning",
+    "name": "Deep Learning",
+    "category": "deep-learning",
+    "description": "Ability to develop neural network based models."
+  },
+  {
+    "slug": "pytorch",
+    "name": "PyTorch",
+    "category": "deep-learning",
+    "description": "Ability to develop deep learning systems with PyTorch."
+  },
+  {
+    "slug": "tensorflow",
+    "name": "TensorFlow",
+    "category": "deep-learning",
+    "description": "Ability to develop machine learning systems using TensorFlow."
+  },
+
+  {
+    "slug": "natural-language-processing",
+    "name": "Natural Language Processing",
+    "category": "natural-language-processing",
+    "description": "Ability to process and model human language data."
+  },
+  {
+    "slug": "computer-vision",
+    "name": "Computer Vision",
+    "category": "computer-vision",
+    "description": "Ability to build systems that interpret visual information."
+  },
+  {
+    "slug": "generative-ai",
+    "name": "Generative AI",
+    "category": "artificial-intelligence",
+    "description": "Ability to build and evaluate generative AI applications."
+  },
+  {
+    "slug": "prompt-engineering",
+    "name": "Prompt Engineering",
+    "category": "artificial-intelligence",
+    "description": "Ability to design effective prompts for generative AI systems."
+  },
+
+  {
+    "slug": "cybersecurity-fundamentals",
+    "name": "Cybersecurity Fundamentals",
+    "category": "security-fundamentals",
+    "description": "Understanding of fundamental cybersecurity principles."
+  },
+  {
+    "slug": "network-security",
+    "name": "Network Security",
+    "category": "network-security",
+    "description": "Ability to secure and monitor network infrastructure."
+  },
+  {
+    "slug": "application-security",
+    "name": "Application Security",
+    "category": "application-security",
+    "description": "Ability to identify and mitigate application security risks."
+  },
+  {
+    "slug": "penetration-testing",
+    "name": "Penetration Testing",
+    "category": "ethical-hacking",
+    "description": "Ability to conduct authorized security testing."
+  },
+  {
+    "slug": "identity-access-management",
+    "name": "Identity & Access Management",
+    "category": "security-governance",
+    "description": "Ability to manage identities, authentication, and authorization."
+  },
+
+  {
+    "slug": "aws",
+    "name": "AWS",
+    "category": "aws",
+    "description": "Ability to design and operate workloads on AWS."
+  },
+  {
+    "slug": "azure",
+    "name": "Microsoft Azure",
+    "category": "azure",
+    "description": "Ability to design and operate workloads on Azure."
+  },
+  {
+    "slug": "google-cloud",
+    "name": "Google Cloud",
+    "category": "google-cloud",
+    "description": "Ability to design and operate workloads on Google Cloud."
+  },
+  {
+    "slug": "docker",
+    "name": "Docker",
+    "category": "containers",
+    "description": "Ability to package and run applications using Docker."
+  },
+  {
+    "slug": "kubernetes",
+    "name": "Kubernetes",
+    "category": "containers",
+    "description": "Ability to deploy and operate containerized workloads with Kubernetes."
+  },
+  {
+    "slug": "terraform",
+    "name": "Terraform",
+    "category": "infrastructure-as-code",
+    "description": "Ability to provision infrastructure using Terraform."
+  },
+  {
+    "slug": "ci-cd",
+    "name": "CI/CD",
+    "category": "devops",
+    "description": "Ability to automate software build, testing, and deployment pipelines."
+  },
+  {
+    "slug": "git",
+    "name": "Git",
+    "category": "devops",
+    "description": "Ability to manage source code using Git."
+  },
+
+  {
+    "slug": "mechanical-design",
+    "name": "Mechanical Design",
+    "category": "mechanical-engineering",
+    "description": "Ability to design mechanical components and systems."
+  },
+  {
+    "slug": "cad",
+    "name": "Computer-Aided Design",
+    "category": "mechanical-engineering",
+    "description": "Ability to create and modify engineering designs using CAD tools."
+  },
+  {
+    "slug": "thermodynamics",
+    "name": "Thermodynamics",
+    "category": "mechanical-engineering",
+    "description": "Understanding of thermodynamic systems and processes."
+  },
+  {
+    "slug": "fluid-mechanics",
+    "name": "Fluid Mechanics",
+    "category": "mechanical-engineering",
+    "description": "Understanding of fluid behavior and engineering applications."
+  },
+
+  {
+    "slug": "circuit-analysis",
+    "name": "Circuit Analysis",
+    "category": "electrical-engineering",
+    "description": "Ability to analyze electrical circuits."
+  },
+  {
+    "slug": "power-systems",
+    "name": "Power Systems",
+    "category": "electrical-engineering",
+    "description": "Understanding of electrical power generation and distribution."
+  },
+  {
+    "slug": "control-systems",
+    "name": "Control Systems",
+    "category": "electrical-engineering",
+    "description": "Ability to analyze and design control systems."
+  },
+
+  {
+    "slug": "digital-electronics",
+    "name": "Digital Electronics",
+    "category": "electronics-engineering",
+    "description": "Understanding of digital electronic circuits and systems."
+  },
+  {
+    "slug": "embedded-systems",
+    "name": "Embedded Systems",
+    "category": "electronics-engineering",
+    "description": "Ability to develop software and hardware for embedded systems."
+  },
+  {
+    "slug": "microcontrollers",
+    "name": "Microcontrollers",
+    "category": "electronics-engineering",
+    "description": "Ability to develop applications using microcontrollers."
+  },
+
+  {
+    "slug": "structural-analysis",
+    "name": "Structural Analysis",
+    "category": "civil-engineering",
+    "description": "Ability to analyze structural systems."
+  },
+  {
+    "slug": "construction-planning",
+    "name": "Construction Planning",
+    "category": "civil-engineering",
+    "description": "Ability to plan construction activities and resources."
+  },
+  {
+    "slug": "autocad",
+    "name": "AutoCAD",
+    "category": "civil-engineering",
+    "description": "Ability to create technical drawings using AutoCAD."
+  },
+
+  {
+    "slug": "leadership",
+    "name": "Leadership",
+    "category": "leadership",
+    "description": "Ability to lead people and teams toward shared outcomes."
+  },
+  {
+    "slug": "strategic-thinking",
+    "name": "Strategic Thinking",
+    "category": "business-strategy",
+    "description": "Ability to analyze situations and formulate long-term strategies."
+  },
+  {
+    "slug": "decision-making",
+    "name": "Decision Making",
+    "category": "leadership",
+    "description": "Ability to make structured decisions under uncertainty."
+  },
+  {
+    "slug": "problem-solving",
+    "name": "Problem Solving",
+    "category": "organizational-management",
+    "description": "Ability to identify problems and develop effective solutions."
+  },
+  {
+    "slug": "business-analysis",
+    "name": "Business Analysis",
+    "category": "business-strategy",
+    "description": "Ability to analyze business needs and translate them into requirements."
+  },
+
+  {
+    "slug": "accounting-fundamentals",
+    "name": "Accounting Fundamentals",
+    "category": "accounting",
+    "description": "Understanding of fundamental accounting principles."
+  },
+  {
+    "slug": "financial-modeling",
+    "name": "Financial Modeling",
+    "category": "financial-analysis",
+    "description": "Ability to build financial models for analysis and planning."
+  },
+  {
+    "slug": "investment-analysis",
+    "name": "Investment Analysis",
+    "category": "investment",
+    "description": "Ability to evaluate investments and financial opportunities."
+  },
+
+  {
+    "slug": "digital-marketing",
+    "name": "Digital Marketing",
+    "category": "digital-marketing",
+    "description": "Ability to plan and execute digital marketing campaigns."
+  },
+  {
+    "slug": "seo",
+    "name": "Search Engine Optimization",
+    "category": "digital-marketing",
+    "description": "Ability to improve organic search visibility."
+  },
+  {
+    "slug": "content-marketing",
+    "name": "Content Marketing",
+    "category": "digital-marketing",
+    "description": "Ability to create content strategies that support business goals."
+  },
+  {
+    "slug": "sales-management",
+    "name": "Sales Management",
+    "category": "sales",
+    "description": "Ability to manage sales processes, pipelines, and teams."
+  },
+
+  {
+    "slug": "ui-design",
+    "name": "UI Design",
+    "category": "ui-ux",
+    "description": "Ability to design usable and visually coherent interfaces."
+  },
+  {
+    "slug": "ux-research",
+    "name": "UX Research",
+    "category": "ui-ux",
+    "description": "Ability to conduct user research and derive product insights."
+  },
+  {
+    "slug": "interaction-design",
+    "name": "Interaction Design",
+    "category": "ui-ux",
+    "description": "Ability to design effective user interactions."
+  },
+  {
+    "slug": "figma",
+    "name": "Figma",
+    "category": "creative-tools",
+    "description": "Ability to create collaborative interface and product designs using Figma."
+  },
+
+  {
+    "slug": "public-speaking",
+    "name": "Public Speaking",
+    "category": "public-speaking",
+    "description": "Ability to communicate ideas effectively to an audience."
+  },
+  {
+    "slug": "business-writing",
+    "name": "Business Writing",
+    "category": "business-writing",
+    "description": "Ability to write clear and professional business communication."
+  },
+  {
+    "slug": "presentation-skills",
+    "name": "Presentation Skills",
+    "category": "professional-communication",
+    "description": "Ability to structure and deliver effective presentations."
+  },
+
+  {
+    "slug": "talent-acquisition",
+    "name": "Talent Acquisition",
+    "category": "talent-acquisition",
+    "description": "Ability to source, evaluate, and recruit talent."
+  },
+  {
+    "slug": "employee-development",
+    "name": "Employee Development",
+    "category": "learning-development",
+    "description": "Ability to design and support employee development initiatives."
+  },
+
+  {
+    "slug": "project-planning",
+    "name": "Project Planning",
+    "category": "project-planning",
+    "description": "Ability to define scope, schedule, resources, and deliverables."
+  },
+  {
+    "slug": "scrum",
+    "name": "Scrum",
+    "category": "agile",
+    "description": "Ability to work within Scrum-based delivery environments."
+  },
+  {
+    "slug": "project-risk-management",
+    "name": "Project Risk Management",
+    "category": "project-risk",
+    "description": "Ability to identify, assess, and mitigate project risks."
+  },
+
+  {
+    "slug": "product-roadmapping",
+    "name": "Product Roadmapping",
+    "category": "product-strategy",
+    "description": "Ability to develop and communicate product roadmaps."
+  },
+  {
+    "slug": "product-discovery",
+    "name": "Product Discovery",
+    "category": "product-discovery",
+    "description": "Ability to identify customer problems and validate product opportunities."
+  },
+  {
+    "slug": "product-analytics",
+    "name": "Product Analytics",
+    "category": "product-analytics",
+    "description": "Ability to use product data to understand user behavior and outcomes."
+  },
+
+  {
+    "slug": "research-methods",
+    "name": "Research Methods",
+    "category": "research-methodology",
+    "description": "Ability to design and conduct structured research."
+  },
+  {
+    "slug": "technical-research",
+    "name": "Technical Research",
+    "category": "scientific-computing",
+    "description": "Ability to investigate technical questions using structured evidence."
+  },
+
+  {
+    "slug": "instructional-design",
+    "name": "Instructional Design",
+    "category": "instructional-design",
+    "description": "Ability to design effective learning experiences."
+  },
+  {
+    "slug": "assessment-design",
+    "name": "Assessment Design",
+    "category": "teaching",
+    "description": "Ability to create assessments that measure learning outcomes."
+  },
+
+  {
+    "slug": "compliance-management",
+    "name": "Compliance Management",
+    "category": "compliance",
+    "description": "Ability to implement and monitor organizational compliance requirements."
+  },
+  {
+    "slug": "data-privacy",
+    "name": "Data Privacy",
+    "category": "privacy",
+    "description": "Understanding of privacy principles and data protection practices."
+  },
+
+  {
+    "slug": "supply-chain-management",
+    "name": "Supply Chain Management",
+    "category": "supply-chain",
+    "description": "Ability to manage end-to-end supply chain activities."
+  },
+  {
+    "slug": "procurement-management",
+    "name": "Procurement Management",
+    "category": "procurement",
+    "description": "Ability to manage procurement processes and suppliers."
+  },
+  {
+    "slug": "quality-management",
+    "name": "Quality Management",
+    "category": "quality-management",
+    "description": "Ability to implement quality management processes."
+  },
+
+  {
+    "slug": "bim",
+    "name": "BIM",
+    "category": "bim",
+    "description": "Ability to use Building Information Modeling workflows."
+  },
+  {
+    "slug": "construction-management",
+    "name": "Construction Management",
+    "category": "construction-management",
+    "description": "Ability to manage construction projects and site activities."
+  }
+]

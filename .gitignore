@@ -1,0 +1,437 @@
+# =========================================================
+# SKILLTWIN - ROOT GITIGNORE
+# React + FastAPI + MySQL + Ollama Chatbot
+# =========================================================
+
+
+# =========================================================
+# ENVIRONMENT / SECRETS
+# =========================================================
+
+.env
+.env.*
+!.env.example
+
+*.env
+*.env.local
+*.env.development
+*.env.production
+*.env.test
+
+# Secret / credential files
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+credentials.json
+service-account.json
+secrets.json
+
+
+# =========================================================
+# NODE / REACT / VITE
+# =========================================================
+
+node_modules/
+**/node_modules/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+.npm/
+.yarn/
+.pnpm-store/
+
+dist/
+**/dist/
+
+build/
+**/build/
+
+.vite/
+**/.vite/
+
+.cache/
+**/.cache/
+
+coverage/
+**/coverage/
+
+*.tsbuildinfo
+
+# Vite local environment files
+vite.config.*.local
+
+
+# =========================================================
+# PYTHON / FASTAPI
+# =========================================================
+
+__pycache__/
+**/__pycache__/
+
+*.py[cod]
+*$py.class
+
+*.so
+
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+
+*.egg
+*.egg-info/
+.installed.cfg
+*.egg-info/
+
+MANIFEST
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.ruff_cache/
+
+
+# =========================================================
+# FASTAPI / LOCAL RUNTIME
+# =========================================================
+
+*.pid
+*.log
+logs/
+**/logs/
+
+uploads/
+**/uploads/
+
+media/
+**/media/
+
+tmp/
+temp/
+
+
+# =========================================================
+# DATABASE
+# =========================================================
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
+
+# MySQL dumps - IGNORE BY DEFAULT
+*.sql
+
+# If you intentionally want to commit database schema/migrations,
+# keep those files outside the ignored dump pattern or force-add them.
+
+# MySQL local files
+*.ibd
+*.frm
+*.MYD
+*.MYI
+
+# Database backups
+backup/
+backups/
+**/backup/
+**/backups/
+
+
+# =========================================================
+# OLLAMA / AI MODELS
+# =========================================================
+
+# NEVER commit downloaded AI models
+models/
+**/models/
+
+ollama/
+**/ollama/
+
+*.gguf
+*.ggml
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Local AI caches
+.huggingface/
+.cache/huggingface/
+.cache/torch/
+.cache/ollama/
+
+# Ollama local configuration/data
+.ollama/
+**/.ollama/
+
+
+# =========================================================
+# CHATBOT
+# =========================================================
+
+# Chatbot runtime/cache
+chatbot/data/
+chatbot/logs/
+chatbot/cache/
+
+**/chatbot/data/
+**/chatbot/logs/
+**/chatbot/cache/
+
+
+# =========================================================
+# IDE / EDITORS
+# =========================================================
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+.idea/
+*.iml
+
+*.swp
+*.swo
+*~
+
+# VS Code local history
+.history/
+
+
+# =========================================================
+# OS FILES
+# =========================================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+.directory
+.Trash-*
+
+
+# =========================================================
+# LOGS
+# =========================================================
+
+*.log
+logs/
+**/logs/
+
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+debug.log
+error.log
+
+
+# =========================================================
+# TEMPORARY FILES
+# =========================================================
+
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+
+temp/
+tmp/
+**/temp/
+**/tmp/
+
+
+# =========================================================
+# FRONTEND LOCAL CONFIG
+# =========================================================
+
+# Local deployment files
+.vercel/
+.netlify/
+.wrangler/
+
+# React/Vite generated files
+storybook-static/
+
+
+# =========================================================
+# DOCKER
+# =========================================================
+
+# Docker local overrides
+docker-compose.override.yml
+docker-compose.local.yml
+
+# Docker secrets
+docker/secrets/
+**/docker/secrets/
+
+
+# =========================================================
+# CERTIFICATES / SSL
+# =========================================================
+
+*.pem
+*.key
+*.csr
+*.crt
+*.cer
+*.p12
+*.pfx
+
+# Let's Encrypt local certificates
+letsencrypt/
+certbot/
+acme.json
+
+
+# =========================================================
+# SSH
+# =========================================================
+
+.ssh/
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+known_hosts
+
+
+# =========================================================
+# CLOUD / DEPLOYMENT
+# =========================================================
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+
+# Serverless
+.serverless/
+
+# Pulumi
+.pulumi/
+
+# Local deployment configs
+.deploy/
+deployment/
+
+
+# =========================================================
+# GENERATED FILES
+# =========================================================
+
+generated/
+**/generated/
+
+*.generated.*
+*.map
+
+# Reports / exports generated locally
+reports/
+exports/
+
+# PDF/Word exports generated by application
+*.generated.pdf
+*.generated.docx
+
+
+# =========================================================
+# BACKUPS
+# =========================================================
+
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Local project backups
+project-backup/
+project_backup/
+backup/
+
+
+# =========================================================
+# PERSONAL / LOCAL NOTES
+# =========================================================
+
+notes.local/
+local/
+.local/
+
+*.local
+*.secret
+*.secrets
+
+
+# =========================================================
+# OPTIONAL: LOCAL DATABASE EXPORTS
+# =========================================================
+
+# Uncomment if you create SQL dumps in a specific folder
+# database/dumps/
+# database/backups/
+
+
+# =========================================================
+# KEEP EXAMPLE CONFIG FILES
+# =========================================================
+
+!.env.example
+!**/.env.example
+
+# Keep Git configuration examples
+!.gitkeep
+!**/.gitkeep
+

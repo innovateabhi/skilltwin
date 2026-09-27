@@ -1,0 +1,102 @@
+[
+  {
+    "slug": "software-engineering",
+    "name": "Software Engineering",
+    "description": "Software development, architecture, programming, testing, and engineering practices."
+  },
+  {
+    "slug": "information-technology",
+    "name": "Information Technology",
+    "description": "IT infrastructure, systems administration, enterprise technology, and technical operations."
+  },
+  {
+    "slug": "data-science",
+    "name": "Data Science",
+    "description": "Data analysis, statistics, machine learning, artificial intelligence, and applied analytics."
+  },
+  {
+    "slug": "cybersecurity",
+    "name": "Cybersecurity",
+    "description": "Information security, application security, cloud security, governance, risk, and threat management."
+  },
+  {
+    "slug": "cloud-computing",
+    "name": "Cloud Computing",
+    "description": "Cloud architecture, infrastructure, platforms, DevOps, containers, and cloud-native engineering."
+  },
+  {
+    "slug": "engineering",
+    "name": "Engineering",
+    "description": "Core engineering disciplines including mechanical, electrical, civil, electronics, and industrial engineering."
+  },
+  {
+    "slug": "business-management",
+    "name": "Business & Management",
+    "description": "Management, leadership, strategy, operations, entrepreneurship, and organizational development."
+  },
+  {
+    "slug": "finance-accounting",
+    "name": "Finance & Accounting",
+    "description": "Financial management, accounting, investment, financial analysis, taxation, and risk."
+  },
+  {
+    "slug": "marketing-sales",
+    "name": "Marketing & Sales",
+    "description": "Marketing strategy, digital marketing, branding, sales, customer development, and growth."
+  },
+  {
+    "slug": "design-creative",
+    "name": "Design & Creative",
+    "description": "UI/UX, graphic design, product design, visual communication, content, and creative technologies."
+  },
+  {
+    "slug": "communication-languages",
+    "name": "Communication & Languages",
+    "description": "Professional communication, writing, presentation, languages, and interpersonal communication."
+  },
+  {
+    "slug": "human-resources",
+    "name": "Human Resources",
+    "description": "Talent acquisition, people management, learning and development, performance, and HR operations."
+  },
+  {
+    "slug": "project-management",
+    "name": "Project Management",
+    "description": "Project planning, delivery, agile methodologies, risk management, and program management."
+  },
+  {
+    "slug": "product-management",
+    "name": "Product Management",
+    "description": "Product strategy, discovery, roadmapping, prioritization, experimentation, and product analytics."
+  },
+  {
+    "slug": "healthcare",
+    "name": "Healthcare",
+    "description": "Healthcare technology, administration, clinical support, public health, and healthcare operations."
+  },
+  {
+    "slug": "science-research",
+    "name": "Science & Research",
+    "description": "Scientific methods, laboratory practices, research methodologies, and quantitative research."
+  },
+  {
+    "slug": "education-training",
+    "name": "Education & Training",
+    "description": "Teaching, instructional design, educational technology, assessment, and training."
+  },
+  {
+    "slug": "legal-compliance",
+    "name": "Legal & Compliance",
+    "description": "Legal operations, regulatory compliance, governance, contracts, privacy, and ethics."
+  },
+  {
+    "slug": "operations-supply-chain",
+    "name": "Operations & Supply Chain",
+    "description": "Operations management, logistics, procurement, supply chain, quality, and process improvement."
+  },
+  {
+    "slug": "architecture-construction",
+    "name": "Architecture & Construction",
+    "description": "Architecture, construction management, BIM, structural design, planning, and built environments."
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "name": "SkillTwin",
+  "category": "Competency Intelligence Platform",
+  "description": "SkillTwin helps learners, trainers, institutions and industries assess competencies, identify skill gaps, recommend learning, support training, measure improvement and support certification.",
+  "workflow": ["Assess", "Identify Skill Gaps", "Recommend", "Train", "Reassess", "Certify", "Measure Improvement"]
+}

@@ -1,0 +1,8 @@
+{
+  "items": [
+    {"audience": "Trainees & Students", "description": "Build a measurable learning and competency-development journey.", "capabilities": ["Assessments", "Skill-gap identification", "Personalized learning", "Progress tracking", "Certification"]},
+    {"audience": "Trainers", "description": "Manage learning delivery and monitor trainee development.", "capabilities": ["Trainee management", "Course management", "Assessment management", "Competency monitoring", "Feedback and progress tracking"]},
+    {"audience": "Institutions", "description": "Manage institutional competency development across learners, trainers and programs.", "capabilities": ["Trainee management", "Trainer management", "Programs", "Assessments", "Competency analytics"]},
+    {"audience": "Industry & Organizations", "description": "Connect workforce requirements with measurable competency intelligence.", "capabilities": ["Workforce competency mapping", "Role-based skill requirements", "Skill-gap analysis", "Training requirements", "Workforce analytics"]}
+  ]
+}

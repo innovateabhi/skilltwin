@@ -1,0 +1,440 @@
+[
+  {
+    "slug": "programming-development",
+    "name": "Programming & Development",
+    "domain": "software-engineering"
+  },
+  {
+    "slug": "software-architecture",
+    "name": "Software Architecture",
+    "domain": "software-engineering"
+  },
+  {
+    "slug": "software-testing",
+    "name": "Software Testing & Quality",
+    "domain": "software-engineering"
+  },
+  {
+    "slug": "web-development",
+    "name": "Web Development",
+    "domain": "software-engineering"
+  },
+  {
+    "slug": "mobile-development",
+    "name": "Mobile Development",
+    "domain": "software-engineering"
+  },
+  {
+    "slug": "systems-programming",
+    "name": "Systems Programming",
+    "domain": "software-engineering"
+  },
+
+  {
+    "slug": "systems-administration",
+    "name": "Systems Administration",
+    "domain": "information-technology"
+  },
+  {
+    "slug": "networking",
+    "name": "Networking",
+    "domain": "information-technology"
+  },
+  {
+    "slug": "database-administration",
+    "name": "Database Administration",
+    "domain": "information-technology"
+  },
+  {
+    "slug": "enterprise-it",
+    "name": "Enterprise IT",
+    "domain": "information-technology"
+  },
+
+  {
+    "slug": "data-analysis",
+    "name": "Data Analysis",
+    "domain": "data-science"
+  },
+  {
+    "slug": "statistics",
+    "name": "Statistics",
+    "domain": "data-science"
+  },
+  {
+    "slug": "machine-learning",
+    "name": "Machine Learning",
+    "domain": "data-science"
+  },
+  {
+    "slug": "deep-learning",
+    "name": "Deep Learning",
+    "domain": "data-science"
+  },
+  {
+    "slug": "artificial-intelligence",
+    "name": "Artificial Intelligence",
+    "domain": "data-science"
+  },
+  {
+    "slug": "natural-language-processing",
+    "name": "Natural Language Processing",
+    "domain": "data-science"
+  },
+  {
+    "slug": "computer-vision",
+    "name": "Computer Vision",
+    "domain": "data-science"
+  },
+
+  {
+    "slug": "security-fundamentals",
+    "name": "Security Fundamentals",
+    "domain": "cybersecurity"
+  },
+  {
+    "slug": "network-security",
+    "name": "Network Security",
+    "domain": "cybersecurity"
+  },
+  {
+    "slug": "application-security",
+    "name": "Application Security",
+    "domain": "cybersecurity"
+  },
+  {
+    "slug": "cloud-security",
+    "name": "Cloud Security",
+    "domain": "cybersecurity"
+  },
+  {
+    "slug": "ethical-hacking",
+    "name": "Ethical Hacking",
+    "domain": "cybersecurity"
+  },
+  {
+    "slug": "security-governance",
+    "name": "Security Governance & Risk",
+    "domain": "cybersecurity"
+  },
+
+  {
+    "slug": "cloud-fundamentals",
+    "name": "Cloud Fundamentals",
+    "domain": "cloud-computing"
+  },
+  {
+    "slug": "aws",
+    "name": "Amazon Web Services",
+    "domain": "cloud-computing"
+  },
+  {
+    "slug": "azure",
+    "name": "Microsoft Azure",
+    "domain": "cloud-computing"
+  },
+  {
+    "slug": "google-cloud",
+    "name": "Google Cloud",
+    "domain": "cloud-computing"
+  },
+  {
+    "slug": "devops",
+    "name": "DevOps",
+    "domain": "cloud-computing"
+  },
+  {
+    "slug": "containers",
+    "name": "Containers & Orchestration",
+    "domain": "cloud-computing"
+  },
+  {
+    "slug": "infrastructure-as-code",
+    "name": "Infrastructure as Code",
+    "domain": "cloud-computing"
+  },
+
+  {
+    "slug": "mechanical-engineering",
+    "name": "Mechanical Engineering",
+    "domain": "engineering"
+  },
+  {
+    "slug": "electrical-engineering",
+    "name": "Electrical Engineering",
+    "domain": "engineering"
+  },
+  {
+    "slug": "electronics-engineering",
+    "name": "Electronics Engineering",
+    "domain": "engineering"
+  },
+  {
+    "slug": "civil-engineering",
+    "name": "Civil Engineering",
+    "domain": "engineering"
+  },
+  {
+    "slug": "industrial-engineering",
+    "name": "Industrial Engineering",
+    "domain": "engineering"
+  },
+  {
+    "slug": "chemical-engineering",
+    "name": "Chemical Engineering",
+    "domain": "engineering"
+  },
+  {
+    "slug": "aerospace-engineering",
+    "name": "Aerospace Engineering",
+    "domain": "engineering"
+  },
+  {
+    "slug": "automotive-engineering",
+    "name": "Automotive Engineering",
+    "domain": "engineering"
+  },
+
+  {
+    "slug": "leadership",
+    "name": "Leadership",
+    "domain": "business-management"
+  },
+  {
+    "slug": "business-strategy",
+    "name": "Business Strategy",
+    "domain": "business-management"
+  },
+  {
+    "slug": "operations-management",
+    "name": "Operations Management",
+    "domain": "business-management"
+  },
+  {
+    "slug": "entrepreneurship",
+    "name": "Entrepreneurship",
+    "domain": "business-management"
+  },
+  {
+    "slug": "organizational-management",
+    "name": "Organizational Management",
+    "domain": "business-management"
+  },
+
+  {
+    "slug": "accounting",
+    "name": "Accounting",
+    "domain": "finance-accounting"
+  },
+  {
+    "slug": "corporate-finance",
+    "name": "Corporate Finance",
+    "domain": "finance-accounting"
+  },
+  {
+    "slug": "investment",
+    "name": "Investment & Markets",
+    "domain": "finance-accounting"
+  },
+  {
+    "slug": "financial-analysis",
+    "name": "Financial Analysis",
+    "domain": "finance-accounting"
+  },
+
+  {
+    "slug": "digital-marketing",
+    "name": "Digital Marketing",
+    "domain": "marketing-sales"
+  },
+  {
+    "slug": "brand-management",
+    "name": "Brand Management",
+    "domain": "marketing-sales"
+  },
+  {
+    "slug": "sales",
+    "name": "Sales",
+    "domain": "marketing-sales"
+  },
+  {
+    "slug": "growth-marketing",
+    "name": "Growth Marketing",
+    "domain": "marketing-sales"
+  },
+
+  {
+    "slug": "ui-ux",
+    "name": "UI/UX Design",
+    "domain": "design-creative"
+  },
+  {
+    "slug": "product-design",
+    "name": "Product Design",
+    "domain": "design-creative"
+  },
+  {
+    "slug": "graphic-design",
+    "name": "Graphic Design",
+    "domain": "design-creative"
+  },
+  {
+    "slug": "creative-tools",
+    "name": "Creative Tools",
+    "domain": "design-creative"
+  },
+
+  {
+    "slug": "professional-communication",
+    "name": "Professional Communication",
+    "domain": "communication-languages"
+  },
+  {
+    "slug": "business-writing",
+    "name": "Business Writing",
+    "domain": "communication-languages"
+  },
+  {
+    "slug": "public-speaking",
+    "name": "Public Speaking",
+    "domain": "communication-languages"
+  },
+  {
+    "slug": "languages",
+    "name": "Languages",
+    "domain": "communication-languages"
+  },
+
+  {
+    "slug": "talent-acquisition",
+    "name": "Talent Acquisition",
+    "domain": "human-resources"
+  },
+  {
+    "slug": "learning-development",
+    "name": "Learning & Development",
+    "domain": "human-resources"
+  },
+  {
+    "slug": "performance-management",
+    "name": "Performance Management",
+    "domain": "human-resources"
+  },
+
+  {
+    "slug": "project-planning",
+    "name": "Project Planning",
+    "domain": "project-management"
+  },
+  {
+    "slug": "agile",
+    "name": "Agile & Scrum",
+    "domain": "project-management"
+  },
+  {
+    "slug": "project-risk",
+    "name": "Project Risk Management",
+    "domain": "project-management"
+  },
+  {
+    "slug": "program-management",
+    "name": "Program Management",
+    "domain": "project-management"
+  },
+
+  {
+    "slug": "product-strategy",
+    "name": "Product Strategy",
+    "domain": "product-management"
+  },
+  {
+    "slug": "product-discovery",
+    "name": "Product Discovery",
+    "domain": "product-management"
+  },
+  {
+    "slug": "product-analytics",
+    "name": "Product Analytics",
+    "domain": "product-management"
+  },
+
+  {
+    "slug": "research-methodology",
+    "name": "Research Methodology",
+    "domain": "science-research"
+  },
+  {
+    "slug": "scientific-computing",
+    "name": "Scientific Computing",
+    "domain": "science-research"
+  },
+
+  {
+    "slug": "teaching",
+    "name": "Teaching",
+    "domain": "education-training"
+  },
+  {
+    "slug": "instructional-design",
+    "name": "Instructional Design",
+    "domain": "education-training"
+  },
+  {
+    "slug": "educational-technology",
+    "name": "Educational Technology",
+    "domain": "education-training"
+  },
+
+  {
+    "slug": "compliance",
+    "name": "Compliance",
+    "domain": "legal-compliance"
+  },
+  {
+    "slug": "privacy",
+    "name": "Privacy & Data Protection",
+    "domain": "legal-compliance"
+  },
+  {
+    "slug": "governance",
+    "name": "Governance",
+    "domain": "legal-compliance"
+  },
+
+  {
+    "slug": "supply-chain",
+    "name": "Supply Chain",
+    "domain": "operations-supply-chain"
+  },
+  {
+    "slug": "procurement",
+    "name": "Procurement",
+    "domain": "operations-supply-chain"
+  },
+  {
+    "slug": "quality-management",
+    "name": "Quality Management",
+    "domain": "operations-supply-chain"
+  },
+  {
+    "slug": "logistics",
+    "name": "Logistics",
+    "domain": "operations-supply-chain"
+  },
+
+  {
+    "slug": "architecture",
+    "name": "Architecture",
+    "domain": "architecture-construction"
+  },
+  {
+    "slug": "bim",
+    "name": "Building Information Modeling",
+    "domain": "architecture-construction"
+  },
+  {
+    "slug": "construction-management",
+    "name": "Construction Management",
+    "domain": "architecture-construction"
+  }
+]

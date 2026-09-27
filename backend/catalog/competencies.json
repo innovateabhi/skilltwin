@@ -1,0 +1,575 @@
+[
+  {
+    "slug": "python-syntax",
+    "name": "Python Syntax & Fundamentals",
+    "skill": "python-programming",
+    "description": "Can write and understand Python programs using core language constructs.",
+    "target_default": 80
+  },
+  {
+    "slug": "python-oop",
+    "name": "Python Object-Oriented Programming",
+    "skill": "python-programming",
+    "description": "Can implement classes, inheritance, composition, and reusable Python components.",
+    "target_default": 80
+  },
+  {
+    "slug": "python-data-processing",
+    "name": "Python Data Processing",
+    "skill": "python-programming",
+    "description": "Can process structured data and automate data-oriented workflows with Python.",
+    "target_default": 80
+  },
+
+  {
+    "slug": "javascript-fundamentals",
+    "name": "JavaScript Fundamentals",
+    "skill": "javascript",
+    "description": "Can write modern JavaScript using variables, functions, objects, arrays, and modules.",
+    "target_default": 80
+  },
+  {
+    "slug": "typescript-development",
+    "name": "TypeScript Development",
+    "skill": "typescript",
+    "description": "Can use TypeScript types, interfaces, generics, and typed application architecture.",
+    "target_default": 80
+  },
+
+  {
+    "slug": "data-structures-implementation",
+    "name": "Data Structure Implementation",
+    "skill": "data-structures",
+    "description": "Can select and implement appropriate data structures for a problem.",
+    "target_default": 80
+  },
+  {
+    "slug": "algorithmic-problem-solving",
+    "name": "Algorithmic Problem Solving",
+    "skill": "algorithms",
+    "description": "Can design efficient algorithms and reason about their complexity.",
+    "target_default": 80
+  },
+
+  {
+    "slug": "oop-design",
+    "name": "Object-Oriented Design",
+    "skill": "object-oriented-programming",
+    "description": "Can model software using appropriate object-oriented abstractions.",
+    "target_default": 80
+  },
+  {
+    "slug": "design-pattern-application",
+    "name": "Design Pattern Application",
+    "skill": "design-patterns",
+    "description": "Can identify and apply suitable software design patterns.",
+    "target_default": 80
+  },
+  {
+    "slug": "scalable-architecture",
+    "name": "Scalable Architecture Design",
+    "skill": "software-architecture",
+    "description": "Can design software architectures that support scalability and maintainability.",
+    "target_default": 80
+  },
+  {
+    "slug": "api-contract-design",
+    "name": "API Contract Design",
+    "skill": "api-design",
+    "description": "Can define clear, consistent, and maintainable API contracts.",
+    "target_default": 80
+  },
+
+  {
+    "slug": "react-component-development",
+    "name": "React Component Development",
+    "skill": "react",
+    "description": "Can build reusable React components and compose interfaces.",
+    "target_default": 80
+  },
+  {
+    "slug": "react-state-management",
+    "name": "React State Management",
+    "skill": "react",
+    "description": "Can manage application state using appropriate React patterns.",
+    "target_default": 80
+  },
+  {
+    "slug": "responsive-web-development",
+    "name": "Responsive Web Development",
+    "skill": "html-css",
+    "description": "Can build responsive interfaces across different screen sizes.",
+    "target_default": 80
+  },
+
+  {
+    "slug": "rest-api-development",
+    "name": "REST API Development",
+    "skill": "rest-api",
+    "description": "Can implement REST APIs with appropriate resources, methods, validation, and errors.",
+    "target_default": 80
+  },
+  {
+    "slug": "sql-querying",
+    "name": "SQL Querying",
+    "skill": "sql",
+    "description": "Can write SQL queries for filtering, aggregation, joins, and analysis.",
+    "target_default": 80
+  },
+  {
+    "slug": "relational-database-design",
+    "name": "Relational Database Design",
+    "skill": "postgresql",
+    "description": "Can design relational schemas with appropriate constraints and relationships.",
+    "target_default": 80
+  },
+
+  {
+    "slug": "linux-administration",
+    "name": "Linux Administration",
+    "skill": "linux",
+    "description": "Can administer Linux systems, users, services, permissions, and processes.",
+    "target_default": 80
+  },
+  {
+    "slug": "network-troubleshooting",
+    "name": "Network Troubleshooting",
+    "skill": "network-administration",
+    "description": "Can diagnose and resolve common network connectivity problems.",
+    "target_default": 80
+  },
+  {
+    "slug": "tcp-ip-fundamentals",
+    "name": "TCP/IP Fundamentals",
+    "skill": "tcp-ip",
+    "description": "Can explain and troubleshoot fundamental TCP/IP networking behavior.",
+    "target_default": 80
+  },
+
+  {
+    "slug": "data-cleaning",
+    "name": "Data Cleaning",
+    "skill": "data-analysis",
+    "description": "Can identify and resolve missing, inconsistent, duplicated, and malformed data.",
+    "target_default": 80
+  },
+  {
+    "slug": "exploratory-data-analysis",
+    "name": "Exploratory Data Analysis",
+    "skill": "data-analysis",
+    "description": "Can explore datasets and identify meaningful patterns and relationships.",
+    "target_default": 80
+  },
+  {
+    "slug": "statistical-inference",
+    "name": "Statistical Inference",
+    "skill": "statistics",
+    "description": "Can apply statistical inference techniques to real-world datasets.",
+    "target_default": 80
+  },
+
+  {
+    "slug": "ml-model-development",
+    "name": "Machine Learning Model Development",
+    "skill": "machine-learning",
+    "description": "Can train and evaluate machine learning models for appropriate problems.",
+    "target_default": 80
+  },
+  {
+    "slug": "feature-engineering-practice",
+    "name": "Feature Engineering",
+    "skill": "feature-engineering",
+    "description": "Can construct and select informative features for machine learning.",
+    "target_default": 80
+  },
+  {
+    "slug": "ml-model-evaluation",
+    "name": "Machine Learning Evaluation",
+    "skill": "model-evaluation",
+    "description": "Can select appropriate metrics and evaluate model performance.",
+    "target_default": 80
+  },
+
+  {
+    "slug": "neural-network-development",
+    "name": "Neural Network Development",
+    "skill": "deep-learning",
+    "description": "Can design, train, and evaluate neural networks.",
+    "target_default": 80
+  },
+  {
+    "slug": "nlp-pipeline-development",
+    "name": "NLP Pipeline Development",
+    "skill": "natural-language-processing",
+    "description": "Can build pipelines for processing and modeling natural language.",
+    "target_default": 80
+  },
+  {
+    "slug": "computer-vision-pipeline",
+    "name": "Computer Vision Pipeline Development",
+    "skill": "computer-vision",
+    "description": "Can develop computer vision pipelines for image-based tasks.",
+    "target_default": 80
+  },
+  {
+    "slug": "generative-ai-application",
+    "name": "Generative AI Application Development",
+    "skill": "generative-ai",
+    "description": "Can design applications that use generative AI models appropriately.",
+    "target_default": 80
+  },
+
+  {
+    "slug": "security-fundamentals-competency",
+    "name": "Security Fundamentals",
+    "skill": "cybersecurity-fundamentals",
+    "description": "Can apply fundamental security principles to technical environments.",
+    "target_default": 80
+  },
+  {
+    "slug": "secure-application-development",
+    "name": "Secure Application Development",
+    "skill": "application-security",
+    "description": "Can identify and mitigate common application security weaknesses.",
+    "target_default": 80
+  },
+  {
+    "slug": "penetration-testing-methodology",
+    "name": "Penetration Testing Methodology",
+    "skill": "penetration-testing",
+    "description": "Can conduct authorized penetration testing using a structured methodology.",
+    "target_default": 80
+  },
+
+  {
+    "slug": "aws-cloud-architecture",
+    "name": "AWS Cloud Architecture",
+    "skill": "aws",
+    "description": "Can design cloud architectures using appropriate AWS services.",
+    "target_default": 80
+  },
+  {
+    "slug": "azure-cloud-architecture",
+    "name": "Azure Cloud Architecture",
+    "skill": "azure",
+    "description": "Can design cloud architectures using appropriate Azure services.",
+    "target_default": 80
+  },
+  {
+    "slug": "docker-containerization",
+    "name": "Docker Containerization",
+    "skill": "docker",
+    "description": "Can package, configure, and operate applications using Docker.",
+    "target_default": 80
+  },
+  {
+    "slug": "kubernetes-deployment",
+    "name": "Kubernetes Deployment",
+    "skill": "kubernetes",
+    "description": "Can deploy and manage containerized applications on Kubernetes.",
+    "target_default": 80
+  },
+  {
+    "slug": "terraform-infrastructure",
+    "name": "Terraform Infrastructure Provisioning",
+    "skill": "terraform",
+    "description": "Can provision repeatable infrastructure using Terraform.",
+    "target_default": 80
+  },
+  {
+    "slug": "cicd-pipeline-development",
+    "name": "CI/CD Pipeline Development",
+    "skill": "ci-cd",
+    "description": "Can build automated software delivery pipelines.",
+    "target_default": 80
+  },
+
+  {
+    "slug": "mechanical-design-competency",
+    "name": "Mechanical Design",
+    "skill": "mechanical-design",
+    "description": "Can design mechanical components according to engineering requirements.",
+    "target_default": 80
+  },
+  {
+    "slug": "cad-modeling",
+    "name": "CAD Modeling",
+    "skill": "cad",
+    "description": "Can create accurate engineering models and drawings using CAD tools.",
+    "target_default": 80
+  },
+  {
+    "slug": "thermodynamic-analysis",
+    "name": "Thermodynamic Analysis",
+    "skill": "thermodynamics",
+    "description": "Can analyze engineering systems using thermodynamic principles.",
+    "target_default": 80
+  },
+
+  {
+    "slug": "circuit-analysis-competency",
+    "name": "Electrical Circuit Analysis",
+    "skill": "circuit-analysis",
+    "description": "Can analyze DC and AC electrical circuits.",
+    "target_default": 80
+  },
+  {
+    "slug": "control-system-analysis",
+    "name": "Control System Analysis",
+    "skill": "control-systems",
+    "description": "Can analyze and design basic feedback control systems.",
+    "target_default": 80
+  },
+  {
+    "slug": "embedded-system-development",
+    "name": "Embedded System Development",
+    "skill": "embedded-systems",
+    "description": "Can develop software and interfaces for embedded systems.",
+    "target_default": 80
+  },
+
+  {
+    "slug": "structural-analysis-competency",
+    "name": "Structural Analysis",
+    "skill": "structural-analysis",
+    "description": "Can analyze structural loads, stresses, and responses.",
+    "target_default": 80
+  },
+
+  {
+    "slug": "strategic-analysis",
+    "name": "Strategic Analysis",
+    "skill": "strategic-thinking",
+    "description": "Can analyze competitive and organizational factors to support strategic decisions.",
+    "target_default": 80
+  },
+  {
+    "slug": "leadership-competency",
+    "name": "Leadership",
+    "skill": "leadership",
+    "description": "Can lead individuals and teams toward measurable outcomes.",
+    "target_default": 80
+  },
+  {
+    "slug": "structured-problem-solving",
+    "name": "Structured Problem Solving",
+    "skill": "problem-solving",
+    "description": "Can systematically define, analyze, and solve complex problems.",
+    "target_default": 80
+  },
+  {
+    "slug": "business-requirements-analysis",
+    "name": "Business Requirements Analysis",
+    "skill": "business-analysis",
+    "description": "Can identify and document business requirements and stakeholder needs.",
+    "target_default": 80
+  },
+
+  {
+    "slug": "financial-modeling-competency",
+    "name": "Financial Modeling",
+    "skill": "financial-modeling",
+    "description": "Can construct financial models for forecasting and decision support.",
+    "target_default": 80
+  },
+  {
+    "slug": "investment-evaluation",
+    "name": "Investment Evaluation",
+    "skill": "investment-analysis",
+    "description": "Can evaluate investment opportunities using appropriate financial measures.",
+    "target_default": 80
+  },
+
+  {
+    "slug": "digital-campaign-management",
+    "name": "Digital Campaign Management",
+    "skill": "digital-marketing",
+    "description": "Can plan, execute, monitor, and optimize digital campaigns.",
+    "target_default": 80
+  },
+  {
+    "slug": "seo-optimization",
+    "name": "SEO Optimization",
+    "skill": "seo",
+    "description": "Can optimize content and websites for organic search visibility.",
+    "target_default": 80
+  },
+
+  {
+    "slug": "interface-design",
+    "name": "Interface Design",
+    "skill": "ui-design",
+    "description": "Can design clear, usable, and consistent user interfaces.",
+    "target_default": 80
+  },
+  {
+    "slug": "user-research",
+    "name": "User Research",
+    "skill": "ux-research",
+    "description": "Can conduct user research and synthesize findings into product insights.",
+    "target_default": 80
+  },
+  {
+    "slug": "figma-prototyping",
+    "name": "Figma Prototyping",
+    "skill": "figma",
+    "description": "Can create interactive prototypes and design systems using Figma.",
+    "target_default": 80
+  },
+
+  {
+    "slug": "professional-presentation",
+    "name": "Professional Presentation",
+    "skill": "presentation-skills",
+    "description": "Can structure and deliver professional presentations effectively.",
+    "target_default": 80
+  },
+  {
+    "slug": "business-writing-competency",
+    "name": "Business Writing",
+    "skill": "business-writing",
+    "description": "Can produce concise, clear, and professional written communication.",
+    "target_default": 80
+  },
+
+  {
+    "slug": "talent-sourcing",
+    "name": "Talent Sourcing",
+    "skill": "talent-acquisition",
+    "description": "Can identify and attract appropriate candidates for open positions.",
+    "target_default": 80
+  },
+  {
+    "slug": "employee-development-planning",
+    "name": "Employee Development Planning",
+    "skill": "employee-development",
+    "description": "Can create structured employee development plans.",
+    "target_default": 80
+  },
+
+  {
+    "slug": "project-scope-management",
+    "name": "Project Scope Management",
+    "skill": "project-planning",
+    "description": "Can define, manage, and control project scope.",
+    "target_default": 80
+  },
+  {
+    "slug": "scrum-practice",
+    "name": "Scrum Practice",
+    "skill": "scrum",
+    "description": "Can participate effectively in Scrum planning, execution, and review.",
+    "target_default": 80
+  },
+  {
+    "slug": "project-risk-analysis",
+    "name": "Project Risk Analysis",
+    "skill": "project-risk-management",
+    "description": "Can identify, assess, prioritize, and mitigate project risks.",
+    "target_default": 80
+  },
+
+  {
+    "slug": "product-roadmap-development",
+    "name": "Product Roadmap Development",
+    "skill": "product-roadmapping",
+    "description": "Can develop product roadmaps aligned with strategy and customer needs.",
+    "target_default": 80
+  },
+  {
+    "slug": "customer-problem-discovery",
+    "name": "Customer Problem Discovery",
+    "skill": "product-discovery",
+    "description": "Can identify, validate, and prioritize customer problems.",
+    "target_default": 80
+  },
+  {
+    "slug": "product-metric-analysis",
+    "name": "Product Metric Analysis",
+    "skill": "product-analytics",
+    "description": "Can analyze product metrics to support product decisions.",
+    "target_default": 80
+  },
+
+  {
+    "slug": "research-design",
+    "name": "Research Design",
+    "skill": "research-methods",
+    "description": "Can formulate research questions and design appropriate studies.",
+    "target_default": 80
+  },
+  {
+    "slug": "technical-evidence-analysis",
+    "name": "Technical Evidence Analysis",
+    "skill": "technical-research",
+    "description": "Can evaluate technical evidence and draw defensible conclusions.",
+    "target_default": 80
+  },
+
+  {
+    "slug": "learning-experience-design",
+    "name": "Learning Experience Design",
+    "skill": "instructional-design",
+    "description": "Can design learning experiences around measurable outcomes.",
+    "target_default": 80
+  },
+  {
+    "slug": "assessment-development",
+    "name": "Assessment Development",
+    "skill": "assessment-design",
+    "description": "Can design assessments aligned with learning objectives.",
+    "target_default": 80
+  },
+
+  {
+    "slug": "compliance-program-management",
+    "name": "Compliance Program Management",
+    "skill": "compliance-management",
+    "description": "Can establish and monitor organizational compliance processes.",
+    "target_default": 80
+  },
+  {
+    "slug": "privacy-risk-assessment",
+    "name": "Privacy Risk Assessment",
+    "skill": "data-privacy",
+    "description": "Can identify and assess privacy risks associated with data processing.",
+    "target_default": 80
+  },
+
+  {
+    "slug": "supply-chain-planning",
+    "name": "Supply Chain Planning",
+    "skill": "supply-chain-management",
+    "description": "Can plan supply chain activities and coordinate resources.",
+    "target_default": 80
+  },
+  {
+    "slug": "procurement-process-management",
+    "name": "Procurement Process Management",
+    "skill": "procurement-management",
+    "description": "Can manage procurement activities, suppliers, and purchasing workflows.",
+    "target_default": 80
+  },
+  {
+    "slug": "quality-improvement",
+    "name": "Quality Improvement",
+    "skill": "quality-management",
+    "description": "Can identify quality problems and implement process improvements.",
+    "target_default": 80
+  },
+
+  {
+    "slug": "bim-model-development",
+    "name": "BIM Model Development",
+    "skill": "bim",
+    "description": "Can develop and manage building information models.",
+    "target_default": 80
+  },
+  {
+    "slug": "construction-project-management",
+    "name": "Construction Project Management",
+    "skill": "construction-management",
+    "description": "Can coordinate construction activities, resources, schedules, and stakeholders.",
+    "target_default": 80
+  }
+]

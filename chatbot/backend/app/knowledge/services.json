@@ -1,0 +1,11 @@
+{
+  "items": [
+    {"name": "Competency Assessment", "description": "Assess learner or workforce competencies using structured assessments and measurable competency outcomes."},
+    {"name": "Skill Gap Analysis", "description": "Identify the difference between current competency and required competency for a role, program or learning objective."},
+    {"name": "Personalized Learning", "description": "Use competency gaps to guide learning paths, courses and relevant learning resources."},
+    {"name": "Training Management", "description": "Support courses, learning resources, assessments, training activities and learner progress."},
+    {"name": "Competency Tracking", "description": "Track competency development and improvement over time."},
+    {"name": "Certification", "description": "Support competency certification and certificate history."},
+    {"name": "Analytics & Reporting", "description": "Provide competency, learning, training and workforce analytics."}
+  ]
+}

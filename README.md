@@ -605,17 +605,4 @@ SkillTwin/
 └── README.md
 ```
 
----
 
-## ⚙️ Local Installation
-
-### Prerequisites
-
-Make sure the following are installed:
-
-- Node.js
-- npm
-- Python 3.11+
-- MySQL / MariaDB
-- Git
-- Ollama (if AI functionality is enabled)

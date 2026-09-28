@@ -426,9 +426,21 @@ The chatbot is designed as a separate service so that it can communicate with an
 
 ![SkillTwin Trainer Portal](screenshots/trainer.png)
 
+### 👨‍🏫 Institution Portal
+
+![SkillTwin Trainer Portal](screenshots/institution.png)
+
+### 👨‍🏫 Industry Portal
+
+![SkillTwin Trainer Portal](screenshots/industry.png)
+
 ### 🛡️ Admin Portal
 
 ![SkillTwin Admin Portal](screenshots/admin.png)
+
+### 👨‍🏫 Approve Trainer Request In Admin Portal
+
+![SkillTwin Trainer Portal](screenshots/approve-trainer.png)
 
 ---
 

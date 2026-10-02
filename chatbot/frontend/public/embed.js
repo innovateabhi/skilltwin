@@ -3,7 +3,7 @@
 
   const chatbotUrl =
     script?.getAttribute("data-chatbot-url") ||
-    "http://localhost:5174";
+    "/chatbot/";
 
   // Prevent duplicate chatbot instances
   if (window.__skillTwinChatbotCleanup) {

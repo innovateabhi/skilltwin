@@ -13,6 +13,9 @@ class Settings(BaseSettings):
 
     FRONTEND_URL: str = "http://localhost:5173"
 
+    GEMINI_API_KEY: str
+    GEMINI_MODEL: str = "gemini-3.6-flash"
+
     class Config:
         env_file = ".env"
 

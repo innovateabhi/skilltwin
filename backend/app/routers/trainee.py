@@ -1,3 +1,5 @@
+from datetime import datetime
+
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy import func, select
 from sqlalchemy.orm import Session
@@ -15,6 +17,13 @@ from app.models.skill import Skill
 from app.models.skill_category import SkillCategory
 from app.models.domain import Domain
 
+from app.models.course_enrollment import CourseEnrollment
+from app.models.course import Course
+from app.models.course_category import CourseCategory
+from app.models.course_domain import CourseDomain
+from app.models.course_module import CourseModule
+from app.models.course_lesson import CourseLesson
+
 from app.schemas.trainee import (
     DashboardStats,
     TraineeCompetencyResponse,
@@ -24,11 +33,6 @@ from app.schemas.trainee import (
     TraineeProfileResponse,
     TraineeSkillResponse,
 )
-
-from app.models.course_enrollment import CourseEnrollment
-from app.models.course import Course
-from app.models.course_category import CourseCategory
-from app.models.course_domain import CourseDomain
 
 
 router = APIRouter(
@@ -494,6 +498,10 @@ def get_dashboard(
     )
 
 
+# ============================================================
+# MY COURSES
+# ============================================================
+
 @router.get(
     "/my-courses",
 )
@@ -524,10 +532,22 @@ def get_my_courses(
         )
         .where(
             CourseEnrollment.trainee_id == trainee.id,
-            CourseEnrollment.payment_status == "paid",
-            CourseEnrollment.status.in_(
-                ["in_progress", "completed"]
+
+            # Allow both paid courses and free/demo courses.
+            CourseEnrollment.payment_status.in_(
+                ["paid", "not_required"]
             ),
+
+            # "active" is the current status used by the
+            # demo/default enrollment records.
+            CourseEnrollment.status.in_(
+                [
+                    "active",
+                    "in_progress",
+                    "completed",
+                ]
+            ),
+
             Course.is_active.is_(True),
         )
         .order_by(
@@ -545,32 +565,155 @@ def get_my_courses(
         domain,
     ) in rows:
 
+        # ----------------------------------------------------
+        # Determine current enrollment progress
+        # ----------------------------------------------------
+
         if enrollment.status == "completed":
             progress_status = "completed"
-        elif enrollment.last_accessed_at:
-            progress_status = "in_progress"
+
+        elif enrollment.status in [
+            "active",
+            "in_progress",
+        ]:
+            if enrollment.last_accessed_at:
+                progress_status = "in_progress"
+            else:
+                progress_status = "not_started"
+
         else:
             progress_status = "not_started"
+
+        # ----------------------------------------------------
+        # Load published lessons for this course
+        # ----------------------------------------------------
+
+        lessons = db.scalars(
+            select(CourseLesson)
+            .join(
+                CourseModule,
+                CourseLesson.module_id == CourseModule.id,
+            )
+            .where(
+                CourseModule.course_id == course.id,
+                CourseLesson.is_published.is_(True),
+            )
+            .order_by(
+                CourseLesson.order_index.asc(),
+            )
+        ).all()
+
+        # ----------------------------------------------------
+        # Determine delivery type
+        #
+        # If the course has at least one live lesson,
+        # it is treated as a live course.
+        #
+        # Otherwise it is treated as recorded/self-paced.
+        # ----------------------------------------------------
+
+        has_live_lessons = any(
+            lesson.lesson_type == "live"
+            for lesson in lessons
+        )
+
+        delivery_type = (
+            "live"
+            if has_live_lessons
+            else "recorded"
+        )
+
+        # ----------------------------------------------------
+        # Find next upcoming live class
+        # ----------------------------------------------------
+
+        next_live_class = None
+
+        if delivery_type == "live":
+
+            now = datetime.utcnow()
+
+            upcoming_live_lessons = [
+                lesson
+                for lesson in lessons
+                if (
+                    lesson.lesson_type == "live"
+                    and lesson.scheduled_at is not None
+                    and lesson.scheduled_at >= now
+                )
+            ]
+
+            if upcoming_live_lessons:
+
+                next_lesson = min(
+                    upcoming_live_lessons,
+                    key=lambda lesson: lesson.scheduled_at,
+                )
+
+                next_live_class = {
+                    "lesson_id": next_lesson.id,
+                    "title": next_lesson.title,
+                    "description": next_lesson.description,
+                    "scheduled_at": next_lesson.scheduled_at,
+                    "duration_minutes": next_lesson.duration_minutes,
+                    "meeting_url": next_lesson.meeting_url,
+                }
+
+        # ----------------------------------------------------
+        # Return course
+        # ----------------------------------------------------
 
         result.append(
             {
                 "enrollment_id": enrollment.id,
+
                 "course_id": course.id,
                 "title": course.title,
                 "slug": course.slug,
                 "description": course.description,
+
                 "instructor_name": course.instructor_name,
                 "thumbnail_url": course.thumbnail_url,
+
                 "level": course.level,
                 "duration_hours": course.duration_hours,
+
                 "currency": course.currency,
-                "domain_id": domain.id if domain else None,
-                "domain_name": domain.name if domain else None,
-                "category_id": category.id if category else None,
-                "category_name": category.name if category else None,
+
+                "domain_id": (
+                    domain.id
+                    if domain
+                    else None
+                ),
+
+                "domain_name": (
+                    domain.name
+                    if domain
+                    else None
+                ),
+
+                "category_id": (
+                    category.id
+                    if category
+                    else None
+                ),
+
+                "category_name": (
+                    category.name
+                    if category
+                    else None
+                ),
+
                 "enrollment_status": enrollment.status,
                 "payment_status": enrollment.payment_status,
                 "progress_status": progress_status,
+
+                # Course delivery information
+                "delivery_type": delivery_type,
+
+                # Upcoming live-class information
+                "next_live_class": next_live_class,
+
                 "enrolled_at": enrollment.enrolled_at,
                 "last_accessed_at": enrollment.last_accessed_at,
                 "completed_at": enrollment.completed_at,
@@ -1063,13 +1206,24 @@ def get_skill_gap_analysis(
 
     for item in top_gaps:
         if item["status"] == "critical":
-            action = "Start structured learning and complete a practical assessment."
+            action = (
+                "Start structured learning and complete "
+                "a practical assessment."
+            )
         elif item["priority"] == "High":
-            action = "Practice this skill through a guided project or learning path."
+            action = (
+                "Practice this skill through a guided "
+                "project or learning path."
+            )
         elif item["priority"] == "Medium":
-            action = "Strengthen this skill with targeted practice."
+            action = (
+                "Strengthen this skill with targeted practice."
+            )
         else:
-            action = "Maintain this skill and validate it through an assessment."
+            action = (
+                "Maintain this skill and validate it "
+                "through an assessment."
+            )
 
         recommendations.append(
             {

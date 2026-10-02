@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { ArrowUp, Bot, Sparkles, X } from "lucide-react";
 
-const API_URL = import.meta.env.VITE_CHATBOT_API_URL || "http://127.0.0.1:8001";
+const API_URL = import.meta.env.VITE_CHATBOT_API_URL || "/chatbot";
 
 const suggestions = [
   "What is SkillTwin?",
